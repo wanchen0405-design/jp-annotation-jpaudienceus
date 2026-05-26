@@ -1,317 +1,317 @@
 var imageListByGroup = [
   {
-    "condition": "jp_nt",
-    "filepath": "stimuli/jpdog_ntpond.jpg",
+    "condition": "jp_jp",
+    "filepath": "jpdog_jpcountryside.jpg",
     "focal": "jpdog",
-    "background": "ntpond",
-    "description": "自然豊かな湖がある公園の歩道沿いに柴犬が立っています。柴犬は湖付近の木を見つめています。"
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "stimuli/jpfountain_uscountryside.jpg",
-    "focal": "jpfountain",
-    "background": "uscountryside",
-    "description": "洋風の広い芝生の庭に、日本の庭園でよくみられる石の置物が置かれています。奥には赤い家、その奥には森が見えます。"
+    "background": "jpcountryside",
+    "description": "田んぼ沿いの細い道に、赤いハーネスを付けた柴犬が立っています。右側には古い木造家屋が並び、奥には大きな木々と赤い鳥居が見えます。静かな日本の田舎の風景です。"
   },
   {
     "condition": "jp_jp",
-    "filepath": "stimuli/jpman_jpcity.jpg",
-    "focal": "jpman",
-    "background": "jpcity",
-    "description": "京都風の町の歩道にビジネスカジュアル風の服装の30代前後の男性が立っています。男性は木造の建物に軽く寄りかかって立っています。奥には自動販売機が見えます。"
-  },
-  {
-    "condition": "us_nt",
-    "filepath": "stimuli/uswoman_ntforest.jpg",
-    "focal": "uswoman",
-    "background": "ntforest",
-    "description": "ハイキングコースのような深い森を女性が歩いています。女性は緑の上着を着ており、茶髪の欧米人女性です。"
-  },
-  {
-    "condition": "nt_jp",
-    "filepath": "stimuli/ntbench_jpcountryside.jpg",
-    "focal": "ntbench",
-    "background": "jpcountryside",
-    "description": "昭和時代のような日本の風景です。右側には木造二階建ての古い家が立ち並んでおり、左側には田、奥には鳥居が見えます。"
-  },
-  {
-    "condition": "us_jp",
-    "filepath": "stimuli/uswoman_jpcountryside.jpg",
-    "focal": "uswoman",
-    "background": "jpcountryside",
-    "description": "天気は曇りで、田園風景の中で、和風の二階建て木造住居が左右にそれぞれ一軒たっており、真ん中には道が続いており、道の先の奥には赤い鳥居と木々がある。道の正面には白人女性が立っている"
-  },
-  {
-    "condition": "jp_jp",
-    "filepath": "stimuli/jpdog_jpcity.jpg",
+    "filepath": "jpdog_jpyard.jpg",
     "focal": "jpdog",
-    "background": "jpcity",
-    "description": "和風の住居通りで温泉街を彷彿とさせる。石畳の道の左右には木造の建造物が連なり、道の正面には柴犬が一匹横を向いている。道の奥には赤白の自販機がそれぞれ一個あり、そこから左右に分かれるT字路になっている。"
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "stimuli/jpwoman_uscountryside.jpg",
-    "focal": "jpwoman",
-    "background": "uscountryside",
-    "description": "天気は曇りで、一面が芝生で、正面にアジア系の女性が立っている。女性の左奥には赤い木造建造物が一軒建っており、さらに奥には、木造の白い建物が一軒と高揚した木々が存在している。"
-  },
-  {
-    "condition": "nt_us",
-    "filepath": "stimuli/ntbench_uscity.jpg",
-    "focal": "ntbench",
-    "background": "uscity",
-    "description": "落ち葉が点在する大きな道が奥へと続いており、左右には木々が道沿いに植えられている。道の手前右側には木製のベンチと街灯が存在する。人の姿は見えず、左奥には高層ビル群が見える。"
-  },
-  {
-    "condition": "jp_nt",
-    "filepath": "stimuli/jpman_ntapt.jpg",
-    "focal": "jpman",
-    "background": "ntapt",
-    "description": "天気は曇り、一面が芝生で、芝生には小さい白い花がまばらに咲いている。正面にはアジア系の男性が立っている。奥には緑色の木々と、マンションのような建物群が見える。"
-  },
-  {
-    "condition": "nt_nt",
-    "filepath": "stimuli/ntdog_ntforest.jpg",
-    "focal": "ntdog",
-    "background": "ntforest",
-    "description": "森の奥へと続く舗装されていない小道。手前にはベージュ色でハーネスを装着した大型犬が横向きで立っています。"
-  },
-  {
-    "condition": "us_us",
-    "filepath": "stimuli/uswoman_uscountryside.jpg",
-    "focal": "uswoman",
-    "background": "uscountryside",
-    "description": "イギリスの田園のような風景。牧草地が広がり、遠くには紅葉した木でいっぱいの丘が見えます。左手奥に白い家、その手前に牛小屋があり、手前には30代くらいの白人女性が立っています。女性はデニムのジャケットとジーンズ、ボーダーのシャツ、茶色いブーツを身に着けています。"
-  },
-  {
-    "condition": "us_jp",
-    "filepath": "stimuli/usdog_jpcity.jpg",
-    "focal": "usdog",
-    "background": "jpcity",
-    "description": "風情ある日本の温泉街のような風景。歴史ある古風な建物が軒を連ねますが、遠くには現代的な自動販売機も2台見えます。手前にはベージュ色の大型犬がこちらを見て立っています。ハーネスをつけており、たぶんオスです。"
-  },
-  {
-    "condition": "us_nt",
-    "filepath": "stimuli/usfountain_ntapt.jpg",
-    "focal": "usfountain",
-    "background": "ntapt",
-    "description": "キャンパスの中庭か公園のような風景写真。周りは白と薄茶色の建物に囲まれ、公園のような部分は黒いフェンスと木に囲まれています。芝生と舗装された小道があり、手前には噴水があります。"
-  },
-  {
-    "condition": "jp_jp",
-    "filepath": "stimuli/jpfountain_jpyard.jpg",
-    "focal": "jpfountain",
     "background": "jpyard",
-    "description": "お寺の玄関前です。右手には木が日本。右手前には石の灯籠があります。石畳の道が中央にあり、その先には古い建物があります。"
-  },
-  {
-    "condition": "us_us",
-    "filepath": "stimuli/usdog_usneighborhood.jpg",
-    "focal": "usdog",
-    "background": "usneighborhood",
-    "description": "車二台分くらいの幅の道路が手前左から右上に向かって伸びています。道路の左側には家が数軒。道路脇の花壇を挟んで、歩道が画面右手前から上側に伸びています。花壇には木が生えています。花壇に犬が一匹。"
-  },
-  {
-    "condition": "nt_nt",
-    "filepath": "stimuli/ntcamera_ntapt.jpg",
-    "focal": "ntcamera",
-    "background": "ntapt",
-    "description": "大きな芝生が画面下半分を覆っており、手前には三脚に乗ったカメラがあります。芝生の途中には、左右に歩道が通っています。芝生の向こうにはいくつも木があり、さらにその先にはアパートのような建物が並んでいます。"
-  },
-  {
-    "condition": "jp_nt",
-    "filepath": "stimuli/jpman_ntpond.jpg",
-    "focal": "jpman",
-    "background": "ntpond",
-    "description": "画面右下から中段まで歩道があり、その左には芝生を挟んで池があります。歩道の手前には30代くらいの男性が立っています。歩道の先にはいくつも木が生えており、木の枝が歩道の上を覆っています。"
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "stimuli/jpdog_uscountryside.jpg",
-    "focal": "jpdog",
-    "background": "uscountryside",
-    "description": "画面下半分は一面の芝生で、手前に犬が一匹。茶色で耳は三角、しっぽはくるっと回っています。画面左上には倉庫のような建物があり、さらにその向こうには木々が茂っています。画面中央上には、特に大きな木が見えます。"
-  },
-  {
-    "condition": "jp_nt",
-    "filepath": "stimuli/jpman_ntforest.jpg",
-    "focal": "jpman",
-    "background": "ntforest",
-    "description": "登山用の道に一人の成年男性が立っています。年齢は30代から40代です。灰色のスウェット、紺色と水色の中間の色をしたジャンバー、濃い緑色と黄緑色の中間の色をしたズボンをはいています。登山をしている途中に撮った写真かもしれません。周りには針葉樹林が目立ちます。季節は冬に近いです。周りは明るく、撮影時刻は朝から昼です。"
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "stimuli/jpdog_usneighborhood.jpg",
-    "focal": "jpdog",
-    "background": "usneighborhood",
-    "description": "季節は秋です。ヨーロッパかアメリカの住宅地の歩行者用道路に一匹の柴犬がいます。首輪がついているので、誰かのペットと考えられます。秋なので街路樹が紅葉していて美しいです。"
+    "description": "日本の古い寺院の境内です。石畳の参道の上に、赤いハーネスを付けた柴犬が立っています。周囲には木造の建物、大きな木々、石灯籠や手水鉢があり、落ち着いた緑の多い雰囲気です。"
   },
   {
     "condition": "jp_jp",
-    "filepath": "stimuli/jpwoman_jpcity.jpg",
+    "filepath": "jpwoman_jpcity.jpg",
     "focal": "jpwoman",
     "background": "jpcity",
-    "description": "京都で見られるような日本の伝統的な住宅街に、一人のアジア人の女性が立っています。周りには、石畳の小道。昔ながらの街灯や木造建築があり、昔ながらの日本の風景を感じることができます。つきあたりには日本特有の自動販売機があります。なので、比較的最近に撮られた写真です。"
-  },
-  {
-    "condition": "us_us",
-    "filepath": "stimuli/uswoman_uscity.jpg",
-    "focal": "uswoman",
-    "background": "uscity",
-    "description": "ニューヨークのセントラルパークで撮られた写真です。街路樹が紅葉しているので、季節は秋です。道路の脇に一人の中年の女性が立っています。"
-  },
-  {
-    "condition": "nt_us",
-    "filepath": "stimuli/ntbench_uscountryside.jpg",
-    "focal": "ntbench",
-    "background": "uscountryside",
-    "description": "開けた草原に二軒の家が建っています。手前の家は赤色、奥の家の壁は白色です。奥には森林が広がっており、紅葉が始まっています。秋がこれから始まるような時期に撮られた写真です。手前には古い木造のベンチがあります。確定した場所は分からないが、ヨーロッパか北欧の風景に見えます。"
-  },
-  {
-    "condition": "nt_nt",
-    "filepath": "stimuli/ntbike_ntpond.jpg",
-    "focal": "ntbike",
-    "background": "ntpond",
-    "description": "画像は、針葉樹林の森の中にある湖と、その外周に沿って作られた砂利道を写しています。画像の左側に湖があり、右側に曲がりくねった砂利道があります。砂利道の上には黒い自転車が停められています。"
-  },
-  {
-    "condition": "nt_us",
-    "filepath": "stimuli/ntcamera_uscity.jpg",
-    "focal": "ntcamera",
-    "background": "uscity",
-    "description": "画像は、大都市の中にある公園の歩道を写しています。歩道は幅が6メートルほどで、アスファルトで舗装され、両脇に大きめの木が等間隔で植えられています。歩道の右側には街灯も等間隔で設置されています。三脚に設置されたカメラが一直線の歩道を撮影するようなアングルで右寄りに置かれています。"
+    "description": "夕暮れのような薄暗い石畳の路地。両側に木造の古い町家が並び、丸い提灯が温かく灯っています。右側に、白いTシャツと灰色のカーディガンを着た女性が立っています。奥には青い自動販売機が見えます。"
   },
   {
     "condition": "jp_jp",
-    "filepath": "stimuli/jpfountain_jpcountryside.jpg",
-    "focal": "jpfountain",
-    "background": "jpcountryside",
-    "description": "画像は、日本の田舎の風景を写しています。現在の視点から見て右側に、塀に囲まれた家が一軒、細めの道を挟んで反対側に家が二軒あります。すべての家は木造で、かなり年季が入っています。右側の家の手前には空き地があり、石でできた灯篭がぽつんと設置してあります。道を進んですべての家を抜けると田園が広がっており、その真ん中に神社の鳥居があります。"
+    "filepath": "jpwoman_jpyard.jpg",
+    "focal": "jpwoman",
+    "background": "jpyard",
+    "description": "木造の古い寺院の前庭で、女性が石畳の上に立っています。周囲には大きな木や緑の庭があり、落ち着いた和風の雰囲気です。"
   },
   {
-    "condition": "us_nt",
-    "filepath": "stimuli/usfountain_ntforest.jpg",
-    "focal": "usfountain",
+    "condition": "jp_jp",
+    "filepath": "jpman_jpyard.jpg",
+    "focal": "jpman",
+    "background": "jpyard",
+    "description": "緑の木々に囲まれた日本の古い木造寺院の前で、男性が石畳の参道脇に立っています。建物は大きな屋根と縁側があり、落ち着いた雰囲気です。"
+  },
+  {
+    "condition": "jp_nt",
+    "filepath": "jpwoman_ntapt.jpg",
+    "focal": "jpwoman",
+    "background": "ntapt",
+    "description": "公園の広い芝生の上に、女性が一人立っています。ベージュのパーカー、濃いジーンズ、灰色の靴を身につけています。周囲には白い小さな花が咲き、後ろには大きな木々と集合住宅が並んでいます。空は曇っています。"
+  },
+  {
+    "condition": "jp_nt",
+    "filepath": "jpman_ntforest.jpg",
+    "focal": "jpman",
     "background": "ntforest",
-    "description": "画像は、森の中に設置された噴水を写しています。背の高い木が多く生えた森の中に未舗装の道があり、その脇に噴水が設置されています。噴水は中世ヨーロッパスタイルのもので、森の中では極めて不自然に見えます。"
+    "description": "森の中の土の小道に、男性が正面を向いて立っています。周囲には背の高い木々が並び、地面には落ち葉や苔、枝が見えます。男性はグレーの上着、ベージュのシャツ、緑のズボン、黒い靴を着ています。全体的に静かな森林散策路の雰囲気です。"
   },
   {
-    "condition": "nt_us",
-    "filepath": "stimuli/ntbench_usneighborhood.jpg",
-    "focal": "ntbench",
+    "condition": "jp_nt",
+    "filepath": "jpwoman_ntforest.jpg",
+    "focal": "jpwoman",
+    "background": "ntforest",
+    "description": "森の中の土の遊歩道に、女性が一人立っています。周囲には背の高い木々が密集し、道は奥へまっすぐ続いています。女性は灰色のパーカー、緑のシャツ、黒いズボンを着て、落ち着いた表情でこちらを向いています。全体に静かな自然散策の雰囲気です。"
+  },
+  {
+    "condition": "jp_nt",
+    "filepath": "jpdog_ntpond.jpg",
+    "focal": "jpdog",
+    "background": "ntpond",
+    "description": "緑豊かな公園の湖畔で、赤いハーネスをつけた柴犬が水辺を見つめて立っています。左には曲がった散歩道が続き、周囲には木々や低い茂みがあり、湖面には緑の景色が映っています。"
+  },
+  {
+    "condition": "jp_nt",
+    "filepath": "jpman_ntpond.jpg",
+    "focal": "jpman",
+    "background": "ntpond",
+    "description": "公園の池のそばの遊歩道に、男性が一人立っています。周囲には大きな木が多く、枝葉が頭上を覆っています。池の水面には木々が映り、全体的に緑が豊かで静かな雰囲気です。"
+  },
+  {
+    "condition": "jp_us",
+    "filepath": "jpman_uscountryside.jpg",
+    "focal": "jpman",
+    "background": "uscountryside",
+    "description": "広い草原に男性が立っています。左奥には赤い納屋と白い家があり、さらに奥には秋色に色づいた木々の森が広がっています。空は晴れていて、穏やかな田園風景です。"
+  },
+  {
+    "condition": "jp_us",
+    "filepath": "jpwoman_usneighborhood.jpg",
+    "focal": "jpwoman",
     "background": "usneighborhood",
-    "description": "赤く色づく葉や落ち葉が秋を感じさせます。住宅が建ち並ぶ一角に歩行者道路があり、そこに１つの木でできたベンチがあります。"
+    "description": "秋の住宅街の歩道に、女性が一人で立っています。周囲には落ち葉、色づいた木々、白い家並み、路上駐車の車があり、夕方のような柔らかい光が差しています。"
+  },
+  {
+    "condition": "jp_us",
+    "filepath": "jpdog_usneighborhood.jpg",
+    "focal": "jpdog",
+    "background": "usneighborhood",
+    "description": "秋の住宅街で、茶色の柴犬が芝生の上に立っています。周囲には落ち葉が散らばり、道路沿いに車や家、黄色く色づいた木々が並んでいます。明るい日差しの穏やかな風景です。"
+  },
+  {
+    "condition": "jp_us",
+    "filepath": "jpfountain_uscity.jpg",
+    "focal": "jpfountain",
+    "background": "uscity",
+    "description": "秋の公園の風景です。落ち葉が散る並木道が奥へ続き、木々は黄色く色づいています。右側には石灯籠のような石造物があり、背景には高層ビルが見えます。晴れて穏やかな雰囲気です。"
+  },
+  {
+    "condition": "jp_us",
+    "filepath": "jpwoman_uscountryside.jpg",
+    "focal": "jpwoman",
+    "background": "uscountryside",
+    "description": "広い草地に女性が立っています。左奥に赤い納屋と白い家があり、背景には秋色の木々と森が広がっています。空は晴れて青く、穏やかな田園風景です。"
   },
   {
     "condition": "nt_jp",
-    "filepath": "stimuli/ntbike_jpcountryside.jpg",
-    "focal": "ntbike",
-    "background": "jpcountryside",
-    "description": "日本の田舎の風景です。古い日本家屋が並んでおり、その横に田んぼがあります。住宅の前には自転車が１台置かれています。遠くに高い木々と、その下に鳥居が見えます。"
-  },
-  {
-    "condition": "us_jp",
-    "filepath": "stimuli/usfountain_jpcity.jpg",
-    "focal": "usfountain",
-    "background": "jpcity",
-    "description": "日本の古い家屋が並ぶ路地の一角です。家屋の入り口と思われる場所の横に小さな噴水があります。軒に提灯がぶら下がり、奥には青い自動販売機があります。"
+    "filepath": "ntdog_jpyard.jpg",
+    "focal": "ntdog",
+    "background": "jpyard",
+    "description": "木々に囲まれた古い木造の寺院の境内です。石畳の参道の中央に、首輪をした灰色の犬が立っています。右側には手水鉢と石灯籠があり、静かで落ち着いた雰囲気です。"
   },
   {
     "condition": "nt_jp",
-    "filepath": "stimuli/ntcamera_jpyard.jpg",
+    "filepath": "ntcamera_jpyard.jpg",
     "focal": "ntcamera",
     "background": "jpyard",
-    "description": "日本の古いお寺の画像です。写真の中心に三脚付きのカメラが立っています。お寺の境内はキレイに舗装されており、落ち葉なども少なく定期的に掃除されている様子です。三脚正面に大きい建物があり、所々に傷は色褪せなどが見られますが、太い柱やしっかりした梁は堅牢な印象を与えます。建物の周囲には、背の高い木が数本植えられており、全体的に落ち着いた雰囲気を醸し出しています。"
-  },
-  {
-    "condition": "jp_us",
-    "filepath": "stimuli/jpwoman_uscity.jpg",
-    "focal": "jpwoman",
-    "background": "uscity",
-    "description": "これは並木通りの写真です。写真の真ん中に周囲を色鮮やかなイチョウの木に囲まれた道が伸びています。道の上にはたくさんの黄色い落ち葉が落ちています。道の右側には、ベージュのブラウスと黒いズボンを履いた若い女性が立っており、こちらを見ています。道の左側には、クラッシクなデザインの街頭もたっています。写真の奥には、高層ビルが立ち並んでおり、都会の中の自然風景の写真に思えます。"
-  },
-  {
-    "condition": "us_nt",
-    "filepath": "stimuli/usdog_ntforest.jpg",
-    "focal": "usdog",
-    "background": "ntforest",
-    "description": "これは針葉樹の森の中の写真です。写真の真ん中には整備された道があり、道の真ん中には一匹の犬が立っています。犬はこちらを見ておらず、どこか遠くを見つめています。犬にはリードが付いているので、飼い主は近くにいるかもしれません。道の真ん中には日本の轍があり、頻繁に自転車が通ったり、人がランニングしたりしているのかもしれません"
-  },
-  {
-    "condition": "us_us",
-    "filepath": "stimuli/usdog_uscountryside.jpg",
-    "focal": "usdog",
-    "background": "uscountryside",
-    "description": "広大な草原、ぽつんと立つ家と犬"
-  },
-  {
-    "condition": "us_nt",
-    "filepath": "stimuli/usfountain_ntpond.jpg",
-    "focal": "usfountain",
-    "background": "ntpond",
-    "description": "自然豊かな公園、流れる小川と遊歩道"
-  },
-  {
-    "condition": "nt_nt",
-    "filepath": "stimuli/ntbike_ntapt.jpg",
-    "focal": "ntbike",
-    "background": "ntapt",
-    "description": "公園の遊歩道に止められた自転車、柵越しに立ち並ぶ住宅街"
+    "description": "日本の寺院の境内のような場所です。石畳の参道の中央に、三脚に載ったカメラが立っています。左には古い木造の建物、右には手水鉢や石灯籠、手入れされた木々があり、緑に囲まれた静かな雰囲気です。"
   },
   {
     "condition": "nt_jp",
-    "filepath": "stimuli/ntbench_jpcity.jpg",
+    "filepath": "ntbench_jpcountryside.jpg",
+    "focal": "ntbench",
+    "background": "jpcountryside",
+    "description": "田んぼの横を細い道がまっすぐ伸び、右側には古い木造家屋とベンチがあります。奥には赤い鳥居と大きな木々が立ち、さらに山や集落が見える、静かな日本の田舎風景です。"
+  },
+  {
+    "condition": "nt_jp",
+    "filepath": "ntbench_jpyard.jpg",
+    "focal": "ntbench",
+    "background": "jpyard",
+    "description": "静かな日本庭園の中に、古い木造の寺院建築があります。手前には石畳と木製のベンチ、周囲には砂利の庭、灯籠、手入れされた低木や高い木々があり、落ち着いた雰囲気です。"
+  },
+  {
+    "condition": "nt_jp",
+    "filepath": "ntbench_jpcity.jpg",
     "focal": "ntbench",
     "background": "jpcity",
-    "description": "古い日本の街並み、夕方の提灯が光る路地裏"
+    "description": "夕暮れか夜の、京都のような古い和風の路地です。両側に木造の建物が並び、暖かい提灯や照明が灯っています。石畳の道が奥へ続き、右手には木のベンチ、突き当たりには自動販売機が2台見えます。落ち着いた静かな雰囲気です。"
+  },
+  {
+    "condition": "nt_nt",
+    "filepath": "ntbench_ntpond.jpg",
+    "focal": "ntbench",
+    "background": "ntpond",
+    "description": "湖沿いの静かな公園です。右手に木製ベンチがあり、砂利道が湖に沿って奥へ続いています。周囲は青々とした芝生と大きな木々に囲まれ、枝葉が日陰を作っています。左側には穏やかな湖面が広がり、自然豊かで落ち着いた雰囲気です。"
+  },
+  {
+    "condition": "nt_nt",
+    "filepath": "ntcamera_ntforest.jpg",
+    "focal": "ntcamera",
+    "background": "ntforest",
+    "description": "森の中の細い土の道が奥へ続いています。両側には背の高い木々が立ち並び、木漏れ日が差しています。道の右手前には、三脚に取り付けられたカメラが置かれ、森の奥を撮影しているようです。"
+  },
+  {
+    "condition": "nt_nt",
+    "filepath": "ntdog_ntpond.jpg",
+    "focal": "ntdog",
+    "background": "ntpond",
+    "description": "森の中の池のほとりに、砂利道がゆるやかに続いています。手前には黒いハーネスを付けた茶色い犬が立ち、右側の池を見つめています。周囲は緑の木々に囲まれ、水面には木々が映っています。"
+  },
+  {
+    "condition": "nt_nt",
+    "filepath": "ntdog_ntforest.jpg",
+    "focal": "ntdog",
+    "background": "ntforest",
+    "description": "森の中の細い土の遊歩道に、ハーネスを付けた中型犬が立っています。周囲には背の高い木々や緑の茂み、苔むした岩があり、木漏れ日が差し込む静かな自然の風景です。"
+  },
+  {
+    "condition": "nt_nt",
+    "filepath": "ntdog_ntapt.jpg",
+    "focal": "ntdog",
+    "background": "ntapt",
+    "description": "芝生の広場に、黒いハーネスをつけた中型の茶色い犬が立っています。犬は左向きで、周囲を見ています。背景には木々、歩道、フェンス、数階建ての集合住宅が並んでいます。全体的に緑が多い静かな住宅地の風景です。"
   },
   {
     "condition": "nt_us",
-    "filepath": "stimuli/ntbike_usneighborhood.jpg",
+    "filepath": "ntbike_uscountryside.jpg",
     "focal": "ntbike",
-    "background": "usneighborhood",
-    "description": "この画像は自転車がメインの画像です。真ん中に黒いT字型の自転車が横向きにあります。場所はアメリカにありそうな小さな住宅街です。左から歩道、車道、電信柱、家があり、手前から奥へと縦に描かれている。歩道には芝生エリアがあり、自転車はそこにある。人は誰もいないようだ。"
+    "background": "uscountryside",
+    "description": "広い草原の手前に黒い自転車が1台立っています。左奥には赤い納屋、その近くに白い家があり、さらに奥には秋色に染まった木々の林が広がっています。空は晴れていて、のどかな田園風景です。"
   },
   {
-    "condition": "nt_jp",
-    "filepath": "stimuli/ntdog_jpcountryside.jpg",
+    "condition": "nt_us",
+    "filepath": "ntdog_uscountryside.jpg",
     "focal": "ntdog",
+    "background": "uscountryside",
+    "description": "広い草原の手前に、ハーネスをつけた茶色い犬が立っています。奥には赤い納屋と白い家があり、周囲には秋色の木々が並んでいます。空は晴れていて、穏やかな田園風景です。"
+  },
+  {
+    "condition": "nt_us",
+    "filepath": "ntdog_usneighborhood.jpg",
+    "focal": "ntdog",
+    "background": "usneighborhood",
+    "description": "秋の住宅街の歩道脇の芝生に、ハーネスをつけた中型犬が立っています。周囲には落ち葉が散り、並木は紅葉し、白い家や停車中の車、ゴミ箱が見えます。"
+  },
+  {
+    "condition": "nt_us",
+    "filepath": "ntbike_uscity.jpg",
+    "focal": "ntbike",
+    "background": "uscity",
+    "description": "秋の公園の並木道。黄色く色づいた木々と落ち葉が広がり、右手には街灯のそばに黒い自転車が停まっています。奥には高層ビル群が見え、都会の中の静かな公園風景です。"
+  },
+  {
+    "condition": "nt_us",
+    "filepath": "ntbench_uscountryside.jpg",
+    "focal": "ntbench",
+    "background": "uscountryside",
+    "description": "広い草原に木製のベンチが一つ置かれています。奥には赤い納屋と小さな家があり、そのさらに先に秋色の森が広がっています。空は晴れていて、静かな田園風景です。"
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "usman_jpcountryside.jpg",
+    "focal": "usman",
     "background": "jpcountryside",
-    "description": "この画像は犬が主役で、日本の田舎の景色です。犬は柴犬風の雑種だと思われる。天気は晴れがだが雲が多く少し曇りがかっている。犬以外に、田んぼ、古民家、鳥居、山があります。右から家、道路、田んぼ、家とあり、その道路は手前から奥へとあり、それにそって家や田んぼがあります。鳥居は田んぼの奥にあり、その後ろに5-6本の高い木が鳥居を守る形である。さらにその奥に木が茂った山がある。犬は道路の手前に横向きでおり、こちらではなく少しずれた方を見ている。視線の先はおそらく田んぼがある。"
+    "description": "田舎の砂利道に男性が立っています。両側に古い木造家屋と緑の田んぼがあり、道の奥には赤い鳥居と背の高い木々が見えます。空は薄曇りです。"
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "usman_jpyard.jpg",
+    "focal": "usman",
+    "background": "jpyard",
+    "description": "木々に囲まれた静かな寺院の境内です。左側に古い木造の和風建築があり、石畳の参道が手前から建物へ続いています。右側にはチェック柄のシャツを着た男性が立っています。全体に緑が多く、落ち着いた雰囲気です。"
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "uswoman_jpcity.jpg",
+    "focal": "uswoman",
+    "background": "jpcity",
+    "description": "夕暮れの石畳の細い路地に、木造の伝統的な建物が並んでいます。右側の店先には丸い提灯が灯り、その下に紺色の上着を着た女性が立っています。奥には青い自動販売機が見えます。"
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "usdog_jpcountryside.jpg",
+    "focal": "usdog",
+    "background": "jpcountryside",
+    "description": "田んぼ沿いの細い道に、ハーネスを着けた黄色いラブラドールが立っています。右には古い木造家屋が並び、奥には赤い鳥居と背の高い木々、山が見える静かな日本の田舎風景です。"
+  },
+  {
+    "condition": "us_jp",
+    "filepath": "usfountain_jpcountryside.jpg",
+    "focal": "usfountain",
+    "background": "jpcountryside",
+    "description": "田舎の集落の風景です。左右に瓦屋根の古い木造家屋が並び、中央には未舗装の道が奥へ続いています。右手前には丸い石造りの噴水があり、水が流れています。奥には緑の田んぼと木々、小さな赤い鳥居のような建物が見え、静かでのどかな雰囲気です。"
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "usfountain_ntapt.jpg",
+    "focal": "usfountain",
+    "background": "ntapt",
+    "description": "芝生の広場の中央に、石造りの二段の噴水があります。周囲には歩道と円形の石畳があり、背後には緑の木々とレンガ造りの集合住宅が並んでいます。明るい昼間で、落ち着いた住宅街の中庭のような雰囲気です。"
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "uswoman_ntapt.jpg",
+    "focal": "uswoman",
+    "background": "ntapt",
+    "description": "芝生の広い公園に、女性が一人立っています。白いTシャツにカーキ色のジャケット、黒いズボン、ベージュの靴を身につけています。周囲には木々が並び、奥にマンションのような建物が見えます。空は曇っています。"
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "usman_ntpond.jpg",
+    "focal": "usman",
+    "background": "ntpond",
+    "description": "公園の湖のほとりに、男性が立っています。男性はデニムジャケットとベージュのズボンを着ています。周囲には大きな木々が並び、緑の葉が頭上を覆っています。湖面には木々が映り、穏やかな雰囲気です。"
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "usdog_ntapt.jpg",
+    "focal": "usdog",
+    "background": "ntapt",
+    "description": "芝生の広場に、淡い黄色のラブラドール犬が立っています。黒いハーネスを着け、周囲には木々とマンションが並んでいます。空は雲が多く、明るい日中の屋外です。"
+  },
+  {
+    "condition": "us_nt",
+    "filepath": "usfountain_ntforest.jpg",
+    "focal": "usfountain",
+    "background": "ntforest",
+    "description": "森の中の小道のそばに、三段の石造りの噴水があります。周囲は背の高い木々と緑の草に囲まれ、木漏れ日が地面に差し込む静かで幻想的な雰囲気です。噴水からは水が流れ落ちています。"
   },
   {
     "condition": "us_us",
-    "filepath": "stimuli/uswoman_usneighborhood.jpg",
+    "filepath": "uswoman_uscountryside.jpg",
     "focal": "uswoman",
-    "background": "usneighborhood",
-    "description": "典型的なアメリカの地方都市の住宅街といった様子の街並み。画面奥に向かって街路樹がのびており、右手は道路、道路には駐車中の車が複数台。左手には広々とした中流階級者向けの住宅が並ぶ。正面には30〜40代の女性が立っており、微笑みを浮かべ、左手を上着のポケットに入れている。街路樹の色はやや黄色みがかっており、季節は秋のように見える。"
+    "background": "uscountryside",
+    "description": "広い草原に女性が立っています。背景には赤い納屋、白い家、大きな木、紅葉した森があり、晴れた青空が広がっています。女性はデニムジャケットとジーンズ、茶色のブーツを身につけています。"
   },
   {
-    "condition": "us_jp",
-    "filepath": "stimuli/usman_jpcountryside.jpg",
+    "condition": "us_us",
+    "filepath": "usdog_uscountryside.jpg",
+    "focal": "usdog",
+    "background": "uscountryside",
+    "description": "広い緑の草原に、白いラブラドールのような犬が立っています。奥には赤い大きな納屋と白い家があり、その後ろに紅葉した森が広がっています。空は晴れていて、のどかな田舎の風景です。"
+  },
+  {
+    "condition": "us_us",
+    "filepath": "usfountain_uscountryside.jpg",
+    "focal": "usfountain",
+    "background": "uscountryside",
+    "description": "田園風景の中に、三段の石造りの噴水があります。噴水の周りは芝生と砂利道で、左奥に赤い大きな納屋、さらに奥に白い家が見えます。背景には秋色の木々と広い畑が広がり、空は晴れています。"
+  },
+  {
+    "condition": "us_us",
+    "filepath": "uswoman_uscity.jpg",
+    "focal": "uswoman",
+    "background": "uscity",
+    "description": "秋の公園で、落ち葉の散る広い遊歩道の脇に女性が立っています。周囲には黄色く色づいた木々が並び、奥には高層ビルの街並みが見えます。明るい日差しの穏やかな風景です。"
+  },
+  {
+    "condition": "us_us",
+    "filepath": "usman_uscity.jpg",
     "focal": "usman",
-    "background": "jpcountryside",
-    "description": "日本の農村の風景。画面奥には背の高い樹木5本の下に鳥居が見える。その奥には、はっきりとは見えないものの、小さな神社があることが想像できる。鳥居の右手と左手に木造の日本家屋があり、いずれも瓦屋根を備えた、我が国に伝統的な建築様式で、築年数は50年は経っていることが推測される。鳥居から手前にのびている白みがかった小道の上に欧米系の背の高い男性が立ち、こちらを見ている。年齢は30〜40代と思われる。彼は誰かに写真を撮ってもらっている様子。男性の右側には水田があり、美しい緑色の稲が堂々とした様子を見せている。"
-  },
-  {
-    "condition": "jp_nt",
-    "filepath": "stimuli/jpfountain_ntforest.jpg",
-    "focal": "jpfountain",
-    "background": "ntforest",
-    "description": "これは森の小道の画像です。撮影者の正面には道が続いており、画面左には灯籠があります。背の低い草木が道の脇に生い茂っています。"
-  },
-  {
-    "condition": "us_jp",
-    "filepath": "stimuli/usman_jpcity.jpg",
-    "focal": "usman",
-    "background": "jpcity",
-    "description": "京都のような場所を想起させる、木造の古い街の路地で、一人の白人の男性が建物に寄りかかっています。道は大人3人が横に並べる程度でかなり狭く見えます。画面奥には自販機が2台見えています。"
-  },
-  {
-    "condition": "nt_nt",
-    "filepath": "stimuli/ntdog_ntapt.jpg",
-    "focal": "ntdog",
-    "background": "ntapt",
-    "description": "芝生の上に犬が立っています。画面の奥にはアパートらしき建物があり、木も生えています。"
+    "background": "uscity",
+    "description": "秋の公園の小道に男性が立っています。周囲は黄色く色づいた木々と落ち葉に囲まれ、左側に街灯があります。奥には高層ビル群が見え、自然と都会が重なった風景です。"
   }
 ];

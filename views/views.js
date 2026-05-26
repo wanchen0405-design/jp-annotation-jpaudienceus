@@ -169,6 +169,9 @@ var main = {
         var viewTemplate = $("#main-view").html();
         var trial = exp.trial_info.main_trials[CT];
         var filePath = trial.filepath || trial.filePath || "";
+        if (filePath && !/^(https?:)?\/\//.test(filePath) && filePath.indexOf("stimuli/") !== 0) {
+            filePath = "stimuli/" + filePath.replace(/^\/+/, "");
+        }
         var condition = trial.condition || "";
         var trialDescription = trial.description || "";
         $("#main").html(
